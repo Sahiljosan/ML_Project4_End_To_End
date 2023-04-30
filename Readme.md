@@ -1,6 +1,6 @@
 # End To End ML Project Implementation
 
-### Step 1
+### Day 1
 1 : Create Environment
 ```
 conda create -p venv python==3.8 -y
