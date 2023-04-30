@@ -22,3 +22,8 @@ git pull
 Step 4 : Create setup.py file and requirement.txt file in vs code 
 
 Step 5 : Create src(source) directory and create __init__.py file in it
+
+Step 6 : Write code in setup.py and install requirements.txt
+```
+pip install -r requirements.txt
+```
