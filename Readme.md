@@ -1,8 +1,11 @@
-Step 1 : Create Environment
+# End To End ML Project Implementation
+
+### Step 1
+1 : Create Environment
 ```
 conda create -p venv python==3.8 -y
 ```
-Step 2 : Git Commit
+2 : Set up the github repository
 ```
 git init
 git add Readme.md
@@ -14,16 +17,18 @@ git config --global user.name "Sahil Josan"
 git config --global user.email sahiljosan50@gmail.com
 git push -u origin main 
 ```
-Step 3 : Create .gitignore file in repository <br>
+3 : Create .gitignore file in repository <br>
 pull .gitignore file in vs code 
 ```
 git pull
 ```
-Step 4 : Create setup.py file and requirement.txt file in vs code 
+4 : Create setup.py file and requirement.txt file in vs code 
 
-Step 5 : Create src(source) directory and create __init__.py file in it
+5 : Create src(source) directory and create __init__.py file in it
 
-Step 6 : Write code in setup.py and install requirements.txt
+6 : Write code in setup.py and install requirements.txt
 ```
 pip install -r requirements.txt
 ```
+- After this we get mlproject.egg-info, in which we have different different packages
+
