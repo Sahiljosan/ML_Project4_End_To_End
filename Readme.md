@@ -4,6 +4,7 @@
 - [Day 1](#day-1)
 - [Day 2](#day-2)
 - [Day 3](#day-3)
+- [Day 4](#day-4)
 
 
 ## Day 1
@@ -126,3 +127,13 @@ python src/logger.py
 [Back To Top](#table-of-content)
 
 ## Day 3 
+Perfrom EDA and Model Training in Jupyter Notebook using student performance dataset
+
+## Day 4
+Written code for data_ingestion.py <br>
+After Executing the code we get artifacts folder which includes
+- raw_data.csv
+- test.csv
+- train.csv
+<br><br>
+Add this artifacts folder in .gitignore/Environments
