@@ -137,3 +137,14 @@ After Executing the code we get artifacts folder which includes
 - train.csv
 <br><br>
 Add this artifacts folder in .gitignore/Environments
+
+[Back To Top](#table-of-content)
+
+## Day 5
+data_transformation.py <br>
+The main aim of data_transformation is to do 
+- feature engineering 
+- data cleaning, 
+- Change our dataset
+- change our categorical features into numerical features
+- Handle the missing values
