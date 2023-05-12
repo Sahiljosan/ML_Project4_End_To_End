@@ -7,6 +7,9 @@
 - [Day 4](#day-4)
 - [Day 5](#day-5)
 - [Day 6](#day-6)
+- [Day 7](#day-7)
+- [Day 8](#day-8)
+- [Day 9](#day-9)
 
 
 ## Day 1
@@ -226,4 +229,12 @@ and This code in Model Trainer
                                                models = models, param = params)
 ```
 [Back To Top](#table-of-content)
+
+## Day 8
+Create Prediction Pipeline <br>
+In Prediction Pipeline we will try to create the web application, which will be interating with pickle files, in web applicaton there will be a form where we give input data to predict the student performance
+`Step1` Create app.py
+`Step2` Right code in prefict_pipeline.py
+
+
 
