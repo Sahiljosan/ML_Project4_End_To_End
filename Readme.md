@@ -5,6 +5,8 @@
 - [Day 2](#day-2)
 - [Day 3](#day-3)
 - [Day 4](#day-4)
+- [Day 5](#day-5)
+- [Day 6](#day-6)
 
 
 ## Day 1
@@ -148,3 +150,7 @@ The main aim of data_transformation is to do
 - Change our dataset
 - change our categorical features into numerical features
 - Handle the missing values
+
+## Day 6 
+model_trainer.py <br>
+The main aim of model_trainer.py is to train model using different different algorithms and store the best model in model.pkl file
