@@ -255,6 +255,42 @@ This configuration is for python only , not for dockers.. while using dockers th
 Steps of Deployment
 ---------------------------------------------------------
 `step1` Have an AWS account <br>
-`step2` Go to elastic beanstalk in search bar and click on applications <br>
+`step2` Go to elastic beanstalk in search bar and click on applications <br> <br>
 ![](https://i.imgur.com/KLhrH1G.png)
+
+
+`step3` Click on create application
+![](https://i.imgur.com/5a91s9x.png)
+
+`step4` write application name in tab of application name
+<br>
+![](https://i.imgur.com/K4lK1FB.png)
+<br>
+Write python in tab of platform and click on sample application because we want to integrate with our github repository
+![](https://i.imgur.com/PnTQAVl.png)
+<br>
+and click on the next and wait for the environment to create
+![](https://i.imgur.com/HlUDDNJ.png)
+<br>
+Now open another tab for AWS and search for CodePipeline
+![](https://i.imgur.com/22jy42U.png) <br>
+Click on create pipeline
+![](https://i.imgur.com/TWRFd3X.png) <br>
+Write pipeline name and dont do any advance settings and click Next
+![](https://i.imgur.com/nmGx3lE.png) <br>
+In source provider click on Github (Version1)
+![](https://i.imgur.com/Coju3wA.png) <br>
+and connect with your local github , select repository and branch and detection option will be github webhooks (recommended) and click next
+![](https://i.imgur.com/O5eLFIr.png) <br>
+Then it comes Build provider - lets say you create project before for creating artifacts and all for doing that any steps we can use build provider. right now we will skip build stage
+![](https://i.imgur.com/kM2XmWU.png) <br>
+This is important Deploy Stage 
+![](https://i.imgur.com/URV2bmR.png) <br>
+Now wait till our environment is created 
+![](https://i.imgur.com/xbbebXu.png) <br>
+
+
+
+
+
 
