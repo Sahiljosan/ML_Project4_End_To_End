@@ -237,4 +237,18 @@ In Prediction Pipeline we will try to create the web application, which will be 
 `Step2` Right code in prefict_pipeline.py
 
 
+## Day 9
+Project Deployment in AWS Cloud using CICD Pipelines <br>
+Elastic Beanstalk <br>
+Here 2 important configuration we need to setup
+`step1` create .ebextensions folder
+`step2` create python.config file <br>
+python.config file is mainly to tell the elastic beanstalk instance that what is the entry point of your application. <br>
+By Default While searching in eleastic beanstalk documentation page, they are giving this type of configuration
+```
+option_settings:
+    "aws:eleasticbeanstalk:container:python":
+        WSGIPath: application:application
+```
+This configuration is for python only , not for dockers.. while using dockers there is different configuration
 
