@@ -252,3 +252,9 @@ option_settings:
 ```
 This configuration is for python only , not for dockers.. while using dockers there is different configuration
 
+Steps of Deployment
+---------------------------------------------------------
+`step1` Have an AWS account
+`step2` Go to elastic beanstalk in search bar and click on applications
+![](https://i.imgur.com/KLhrH1G.png)
+
