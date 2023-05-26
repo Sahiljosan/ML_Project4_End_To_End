@@ -7,6 +7,10 @@ https://sahiljosan-ml-project4-end-to-end-app-fsgs27.streamlit.app/
 
 ### UI of Application
 
+
+https://github.com/Sahiljosan/ML_Project4_End_To_End/assets/106590141/96de4e03-8760-4e90-ad64-18c5e0bd599a
+
+
 ## Table Of Contents
 - [About project](#about-project)
 - [Technologies](#technologies)
