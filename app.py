@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import base64
 
 model = pickle.load(open('model.pkl','rb'))
 preprocessor = pickle.load(open('preprocessor.pkl', 'rb'))
@@ -43,5 +44,24 @@ df = pd.DataFrame(l,index=[0])
 df = preprocessor.transform(df)
 y_pred = model.predict(df)
 
+
 if st.button("Show Math's Score"):
     st.header(f"{round(y_pred[0], 2)}")
+
+
+# insert Background image
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
+    st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});
+        background-size: cover
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+add_bg_from_local('stud_performance.jpg')   
