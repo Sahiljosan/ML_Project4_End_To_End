@@ -1,6 +1,9 @@
 # Student Performance Prediction
 
-Project Deployment [Link](https://sahiljosan-ml-project4-end-to-end-app-fsgs27.streamlit.app/)
+Project Deployment Url
+```
+https://sahiljosan-ml-project4-end-to-end-app-fsgs27.streamlit.app/
+```
 
 ### UI of Application
 
