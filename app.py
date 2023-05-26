@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 import base64
 
+
 model = pickle.load(open('model.pkl','rb'))
 preprocessor = pickle.load(open('preprocessor.pkl', 'rb'))
 
